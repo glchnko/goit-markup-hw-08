@@ -1,0 +1,39 @@
+.footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    background-color: var(--bg-mode-dark);
+}
+
+
+.footer__container{
+    display: flex;
+    align-items: baseline;
+}
+
+.footer__wrapper{
+    margin-right: 69px;
+    flex-grow: 1;
+}
+
+
+.footer__logo{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+
+    color: var(--main-txt-mode-light);
+    
+    display: block;
+    margin-bottom: 20px;
+
+    color: var(--secondary-txt-mode-dark);
+}
+.footer__logo--secondary{
+    color: var(--main-txt-mode-dark);
+}
+
+

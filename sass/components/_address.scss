@@ -1,0 +1,40 @@
+
+.address{
+    font-style: normal;
+}
+.adress__item{
+    
+    margin-bottom: 10px;
+
+
+    &:last-child{
+        margin-bottom: 0;
+    }
+    
+}
+
+.adress__map{
+    
+    color: var(--main-txt-mode-dark);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus{
+        color: var(--secondary-txt-mode-dark);
+    }
+}
+.adress__mail,
+.adress__phone{
+ color: var(--primary-txt-mode-dark);
+
+ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus{
+        color: var(--secondary-txt-mode-dark);
+    }
+ 
+}
+
+
