@@ -8,14 +8,16 @@
 .header__container{
     display: flex;
     align-items: center;
+
+   
+
+    
 }
 
-.header__logo{
-    margin-right: 93px;
-}
-
 
 .header__logo{
+    // margin-right: 93px;
+
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
@@ -24,11 +26,22 @@
     letter-spacing: 0.03em;
 
     color: var(--main-txt-mode-light);
+
+    
     
 }
 .header__logo--primary{
     color: var(--secondary-txt-mode-light);
 
+}
+
+
+.header__icon--menu{
+    opacity: 1;
+}
+
+.header__icon--close{
+    opacity: 0;
 }
 
 .header__link{
@@ -54,6 +67,10 @@
     display: flex;
     align-items: center;
     margin-left: auto;
+
+    @media  screen and (max-width: 480px) {
+        display: none;
+    }
 }
 
 .header__wrapper{

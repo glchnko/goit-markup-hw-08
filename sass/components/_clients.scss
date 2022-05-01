@@ -10,12 +10,33 @@
 
     color: var(--main-txt-mode-light);
 
+    @media screen and (max-width: 480px){
+        margin-bottom: 30px;
+    }
+
 }
 
 
 .clients__list{
+        
     display: flex;
     justify-content: center;
+    
+
+    @media screen and (max-width: 480px){
+        flex-wrap: wrap;
+        align-content: center;
+        
+    
+    }
+
+    // @media screen and (min-width: 1200px){
+    //     justify-content: center;
+    
+    // }
+    
+
+   
 
 }
 
@@ -24,7 +45,24 @@
 
     &:last-child{
         margin-right: 0;
+        
     }
+    @media screen and (max-width: 480px){
+        
+        margin-bottom: 30px;
+
+        &:last-child{
+            margin-bottom: 0;
+        }
+
+        &:nth-child(5n){
+            margin-bottom: 0;
+        }
+
+        
+    
+    }
+
 }
 
 

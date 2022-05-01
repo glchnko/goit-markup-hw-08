@@ -3,17 +3,36 @@
     padding-bottom: 60px;
 
     background-color: var(--bg-mode-dark);
+
+
 }
 
 
 .footer__container{
     display: flex;
     align-items: baseline;
+
+    @media screen and (max-width: 480px){
+        display: block;
+        
+    
+    }
 }
 
 .footer__wrapper{
     margin-right: 69px;
     flex-grow: 1;
+
+    @media screen and (max-width: 480px){
+        width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+        flex-grow: 0;
+        
+        margin-bottom: 60px;
+
+    }
+
 }
 
 
@@ -31,6 +50,13 @@
     margin-bottom: 20px;
 
     color: var(--secondary-txt-mode-dark);
+
+    @media screen and (max-width: 480px){
+        text-align: center;
+
+    }
+
+    
 }
 .footer__logo--secondary{
     color: var(--main-txt-mode-dark);
