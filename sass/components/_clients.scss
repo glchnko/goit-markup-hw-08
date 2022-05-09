@@ -1,7 +1,5 @@
 
 .clients__title{
-    margin-bottom: 50px;
-
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -14,33 +12,25 @@
         margin-bottom: 30px;
     }
 
+    @media screen and (mix-width: 1200px){
+        margin-bottom: 50px;
+    }
+
 }
 
 
 .clients__list{
         
     display: flex;
+    flex-wrap: wrap ;
     justify-content: center;
     
-
-    @media screen and (max-width: 480px){
-        flex-wrap: wrap;
-        align-content: center;
-        
-    
-    }
-
-    // @media screen and (min-width: 1200px){
-    //     justify-content: center;
-    
-    // }
-    
-
    
 
 }
 
 .clients__item{
+    
     margin-right: 30px;
 
     &:last-child{
@@ -48,6 +38,7 @@
         
     }
     @media screen and (max-width: 480px){
+        
         
         margin-bottom: 30px;
 

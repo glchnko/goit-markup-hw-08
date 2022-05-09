@@ -15,6 +15,52 @@
     <header class="header">
         <div class="header__container container">
         <a class="header__logo link" href="./index.html"><span class="header__logo--primary">Web</span>Studio</a>
+        <button class="mobile__button" data-menu-button type="button"  aria-expanded="false">
+            <svg class="" width="40px" height="40px">
+                <use class="mobile__icon--menu" href="./images/icons.svg#icon-menu_40px"></use>
+                <use class="mobile__icon--close" href="./images/icons.svg#icon-close_40px"></use>
+            </svg>
+        </button>
+        <div class="mobile__menu" data-menu>
+            <ul class="menu__list list">
+                <li class="menu__item"><a class="menu__link link" href="./index.html">Студия</a></li>
+                <li class="menu__item"><a class="menu__link link" href="./portfolio.html">Портфолио</a></li>
+                <li class="menu__item"><a class="menu__link link" href="">Контакты</a></li>
+            </ul>
+        <div class="mobile__menu--group">
+            <ul class="contact__list list">
+                <li class="contact__item">
+                    <a class="contact__link link" href="tel:+380961111111">
+                        +38 096 111 11 11
+                    </a>
+                </li>  
+                <li class="contact__item">
+                    <a class="contact__link link" href="mailto:info@devstudio.com">
+                            info@devstudio.com 
+                    </a>
+                </li>  
+            </ul>
+            <ul class="socials__list list">
+                <li class="socials__item">
+                    <a class="socials__link link" href="">Instagram
+                    </a>
+                </li>
+                <li class="socials__item">
+                    <a class="socials__link link" href="">Twitter
+                    </a>
+                </li>
+                <li class="socials__item">
+                    <a class="socials__link link" href="">Facebook 
+                    </a>
+                </li>
+                <li class="socials__item">
+                    <a class="socials__link link" href="">LinkedIn
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        </div>  
         <nav class="nav">
             <ul class="nav__list list">
                 <li class="nav__item">
@@ -63,7 +109,7 @@
                 <li class="project__item">
                     <a class="project__link" href="">
                     <div class="project__wrapper">
-                        <img class="project__img" src="./images/technok.jpg" alt="Ноутбук"  width="370" height="294"/>
+                        <img class="project__img" src="./images/technok.jpg" alt="Ноутбук"/>
                          <div class="project__overlay">
                             <p class="project__description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                         </div>
@@ -72,13 +118,12 @@
                             <h2 class="project__name">Технокряк</h2>
                             <p class="project__category" href="">Веб-сайт</p>
                         </div>
-                    
                     </a>                       
                 </li>
                 <li class="project__item">
                     <a class="project__link" href="">
                         <div class="project__wrapper">
-                            <img class="project__img" src="./images/neworlean.jpg" alt="Баскетболисты"  width="370" height="294"/>
+                            <img class="project__img" src="./images/neworlean.jpg" alt="Баскетболисты"  />
                             <div class="project__overlay">
                                 <p class="project__description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                             </div>
@@ -92,7 +137,7 @@
                 <li class="project__item">
                     <a class="project__link" href="">
                         <div class="project__wrapper">
-                            <img class="project__img" src="./images/seafood.jpg" alt="Логотип компании"  width="370" height="294"/>
+                            <img class="project__img" src="./images/seafood.jpg" alt="Логотип компании" />
                             <div class="project__overlay">
                                 <p class="project__description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                             </div>
@@ -107,7 +152,7 @@
                 <li class="project__item">
                     <a class="project__link" href="">
                         <div class="project__wrapper">
-                            <img class="project__img" src="./images/prime.jpg" alt="Наушники"  width="370" height="294"/>
+                            <img class="project__img" src="./images/prime.jpg" alt="Наушники" />
                             <div class="project__overlay">
                                 <p class="project__description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                             </div>
@@ -201,9 +246,9 @@
         <a class="footer__logo link" href="./index.html">Web<span class="footer__logo--secondary">Studio</span></a>
         <address class="address">
             <ul class="adress__list list">
-                <li><a class="adress__map link" href="https://goo.gl/maps/4AAbKkRMMYhUrbmD7" target="_blank">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li><a class="adress__mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="adress__phone link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="adress__item"> <a class="adress__map link" href="https://goo.gl/maps/4AAbKkRMMYhUrbmD7" target="_blank">г. Киев, пр-т Леси Украинки, 26</a></li>
+                <li class="adress__item"><a class="adress__mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="adress__item"><a class="adress__phone link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </div>
         </address>
@@ -260,5 +305,7 @@
         </div>              
         </div>
        </footer>
+
+       <script src="./js/mobill-menu.js"></script>
 </body>
 </html>

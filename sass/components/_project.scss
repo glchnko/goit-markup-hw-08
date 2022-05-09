@@ -1,12 +1,22 @@
 
 .project{
-    display: flex;
-    flex-wrap: wrap;    
+    // display: flex;
+    // // flex-wrap: wrap;    
 }
 
 .project__item{
-    margin-right: 30px;
     margin-bottom: 30px;
+
+    @media screen and (max-width:480px){
+       
+        justify-content: center;
+
+    }
+
+    @media screen and (min-width:1200px){
+
+        margin-right: 30px;
+    
     
     &:nth-child(3n){
         margin-right: 0;
@@ -16,12 +26,17 @@
          margin-bottom: 0;
 
     }
+        
+    }
+
+
    
 }
 
 
 
 .project__link{
+    
     display: block;
     position: relative;
     
@@ -64,6 +79,16 @@
 
 .project__img{
     display: block;
+
+    @media screen and (max-width:480px){
+        width: 450px;
+        height: 294px;
+    }
+
+    @media screen and (min-width:1200px){
+        width: 370px;
+        height: 294px;
+    }
     
 }
 

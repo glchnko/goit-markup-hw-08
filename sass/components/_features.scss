@@ -1,11 +1,17 @@
 
 .features__list{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
 
     @media screen and (min-width: 480px){
         display: block;
-        
+        margin-left: auto;
+        margin-right: auto;    
 
     }
+
+
 
     @media screen and (min-width:1200px){
         display: flex;
@@ -49,17 +55,15 @@
 
 .features__item{
     
-    
+    margin-right: 0;
 
-    margin-right: 30px;
-
-    &:last-child{
-        margin-right: 0;
-    }
-
-    @media screen and (max-width: 480px){
+    @media screen and (mix-width: 1200px){
         
-        margin-right: 0;
+        margin-right: 30px;
+
+        &:last-child{
+            margin-right: 0;
+        }
 
     }
 }
