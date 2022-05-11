@@ -1,7 +1,9 @@
 
 .project{
-    // display: flex;
-    // // flex-wrap: wrap;    
+    display: flex;
+    flex-wrap: wrap;  
+    margin-top: -30px;
+    margin-right: -30px; 
 }
 
 .project__item{
@@ -10,6 +12,22 @@
     @media screen and (max-width:480px){
        
         justify-content: center;
+
+    }
+
+    @media screen and (min-width:768px){
+        display: flex;
+        flex-wrap: wrap;
+        
+        margin-top: 30px;
+        margin-right: 30px;
+        width: 354px;
+        // height: 440px;
+        margin-bottom: 0;
+
+        &:nth-child(2n+2){
+            margin-right: 0;
+        }
 
     }
 
@@ -58,6 +76,8 @@
 
 
 .project__overlay{
+
+    
     position: absolute;
     width: 100%;
     height: 294px;
@@ -135,6 +155,8 @@
 }
 
 .project__category{
+    font-weight: 400;
+    font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--primary-txt-mode-light);

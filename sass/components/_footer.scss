@@ -14,11 +14,20 @@
 
 
 .footer__container{
-    
 
-    @media screen and (mшx-width: 1200px){
+    @media screen and (min-width: 768px){
         display: flex;
         align-items: baseline;
+        flex-wrap: wrap;
+        
+    
+    }
+    
+
+    @media screen and (min-width: 1200px){
+        display: flex;
+        align-items: baseline;
+        
         
     
     }
@@ -27,6 +36,7 @@
 .footer__wrapper{
     margin-right: 69px;
     flex-grow: 1;
+    margin-bottom: 60px;
 
     @media screen and (max-width: 480px){
         width: max-content;
@@ -34,9 +44,11 @@
         margin-right: auto;
         flex-grow: 0;
         
-        margin-bottom: 60px;
+        
 
     }
+
+    
 
 }
 
@@ -58,6 +70,13 @@
 
     @media screen and (max-width: 480px){
         text-align: center;
+
+    }
+
+    @media screen and (min-width: 768px){
+        margin-left: 115px;
+        
+        
 
     }
 

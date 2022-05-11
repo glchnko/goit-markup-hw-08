@@ -15,7 +15,7 @@
     
     color: var(--main-txt-mode-light);
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 1119px) {
         margin-bottom: 30px;
     }
        
@@ -27,8 +27,13 @@
         display: block;
     }
 
-    @media screen and (mix-width: 768px) {
+    @media screen and (min-width: 768px){
         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 30px;
+        
     }
 }
 
@@ -43,14 +48,9 @@
         margin-bottom: 0;
     }
     
-
-    @media screen and (mix-width: 768px) {
-        margin-right: 30px;
-        
-
-        &:last-child{
-            margin-right: 0;
-        }
+    @media screen and (min-width: 768px) {
+        width: 354px;
+        margin-bottom: 0;
     }
 }
 

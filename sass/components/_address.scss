@@ -1,20 +1,23 @@
 
 .address{
     font-style: normal;
+
+    
 }
+
+
+
 .adress__item{
     
     margin-bottom: 10px;
+    text-align: center;
 
 
     &:last-child{
         margin-bottom: 0;
     }
 
-    @media screen and (max-width: 480px){
-        text-align: center;
-
-    }
+   
     
 }
 

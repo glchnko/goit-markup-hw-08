@@ -1,11 +1,16 @@
 .pagination{
     display: flex;
     
-    
-
     @media screen and (max-width:480px) {
         flex-wrap: wrap;
         margin-bottom: 40px;
+    }
+
+    @media screen and (min-width: 768px){
+        margin-bottom:30px;
+        justify-content: center;
+        
+       
     }
 
     @media screen and (mix-width:1200px) {
@@ -13,6 +18,10 @@
         margin-bottom: 50px;
     }
 }
+
+
+
+
 .paganation__item{
     margin-right: 8px;
 
