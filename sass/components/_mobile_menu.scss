@@ -36,8 +36,7 @@
 
 .mobile__button.is-active .mobile__icon--close{
     opacity: 1;
-
-   
+      
 }
 
 .mobile__button.is-active .mobile__icon--close:hover,
@@ -59,6 +58,7 @@
     flex-direction: column;
     justify-content: flex-start;
     background-color: var(--bg-header);
+    z-index: 5;
 
     opacity: 0;
     transform: translateX(100%);
@@ -72,6 +72,7 @@
 .mobile__menu.is-open{
     opacity: 1;
     transform: translateX(0);
+    
 }
 
 .menu-list{

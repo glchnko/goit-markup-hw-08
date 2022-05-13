@@ -2,26 +2,53 @@
 .hero{
     background-color: var(--bg-mode-dark);
     
-    @media screen and (max-width:480px){
+    @media screen and (max-width:1119px){
         padding-bottom: 118px;
         padding-top: 118px;
     }
 
-    // padding-bottom: 200px;
-    // padding-top: 200px;
+    @media screen and (min-width:1200px){
+        padding-bottom: 200px;
+        padding-top: 200px;
+        
+    }
+
+    
 }
 
-// .hero__overlay{
-//     height: 600px;
-//     max-width: 1600px;
-//     margin-left: auto;
-//     margin-right: auto;
-//     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
-//                         url('../images/hero-bg.jpg');
-//     background-size: cover;
-//     background-position: center;
-//     background-repeat: no-repeat;
-// }
+.hero__overlay{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+        url('../images/hero-bg/hero-bg_sm.jpg');
+    @include mq(retina){
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+        url('../images/hero-bg/hero-bg_sm@2x.jpg');
+    }
+
+    @include mq(tablet){
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+        url('../images/hero-bg/hero-bg_md.jpg');
+        @include mq(retina){
+            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+            url('../images/hero-bg/hero-bg_md@2x.jpg');
+        }
+    }
+
+    @include mq(desktop){
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+        url('../images/hero-bg/hero-bg_lg.jpg');
+        @include mq(retina){
+            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+            url('../images/hero-bg/hero-bg_lg@2x.jpg');
+        }
+
+    }
+
+    
+}
 
 .hero__title{
     margin-right: auto;
@@ -39,6 +66,8 @@
         line-height: 42px;
         
     }
+
+   
 
     @media screen and (min-width:1200px){
         
