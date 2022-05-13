@@ -79,6 +79,12 @@ h1, h2, h3, p {
   }
 }
 
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .header {
   background-color: var(--bg-header);
   border-bottom: 1px solid #ECECEC;
@@ -562,6 +568,7 @@ h1, h2, h3, p {
 }
 
 .team__name {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
