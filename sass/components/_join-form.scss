@@ -1,16 +1,11 @@
 
 .join{
 
-    margin-right: 93px;
-
-        &:last-child{
-        margin-right: 0;
-        }
+    
     
 
     @media screen and (max-width: 480px){
         align-items: center;
-        margin-right: 0;
         margin-bottom: 60px;
 
         &:last-child{
@@ -20,8 +15,12 @@
         
     }
 
-    
-
+    @media screen and (min-width: 1200px){
+        margin-right: 70px;
+        
+       
+        
+    }
 
     
 }
@@ -51,6 +50,12 @@
     margin-left: auto;
     text-align: center;
 
+    @media screen and (min-width:1200px) {
+        display: flex;
+        margin: 0;
+        
+    }
+
     
 }
 
@@ -71,7 +76,7 @@
     background-color: rgba(47, 48, 58, 1);
 
     @media screen and (max-width: 480px){
-        
+        width: 100%;
         margin-bottom: 20px;
          
         

@@ -14,7 +14,15 @@
 
     padding: 15px 94px;
     overflow-y: scroll;
-    
+
+    @media screen and (max-width: 1119px) {
+        padding-top: 93px;
+        
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 208px;
+    }
        
     
 }
