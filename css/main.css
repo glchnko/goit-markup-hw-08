@@ -766,10 +766,6 @@ img {
 @media screen and (min-width: 768px) {
   .footer__box {
     display: flex;
-  }
-}
-@media screen and (min-width: 768px) {
-  .footer__box {
     margin-bottom: 0px;
   }
 }
