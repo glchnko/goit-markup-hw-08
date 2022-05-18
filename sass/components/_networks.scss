@@ -42,11 +42,12 @@
 
 .networks__icon--dark__mode{    
     background-color: rgba(255, 255, 255, 0.1);
+    
    
 }
 
 
 .networks__icon{
-    fill: currentColor;
+    fill: var(--icon-hover-color);
 }  
 

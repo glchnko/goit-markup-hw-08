@@ -4,9 +4,31 @@
 
     @media screen and (min-width: 768px){
         padding-left: 76px;
+      
+
+    }
+
+    @media screen and (min-width: 1200px){
+        padding-left: 15px;
+        
 
     }
     
+}
+
+.adress__list{
+    
+    line-height: 1.17;
+    font-size: 14px;
+
+    @media screen and (min-width: 1200px){
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+   
 }
 
 
@@ -26,6 +48,7 @@
 }
 
 .adress__map{
+    
     
     color: var(--main-txt-mode-dark);
 
