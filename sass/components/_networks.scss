@@ -48,6 +48,18 @@
 
 
 .networks__icon{
-    fill: var(--icon-hover-color);
+    fill: var( --icon-main-color);
+
+   
+        &:hover,
+        &:focus{
+            fill: var(--icon-hover-color);
+        }
+        
+    
 }  
 
+.networks__icon--footer{
+    fill: var(--icon-hover-color);
+
+}
