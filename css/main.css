@@ -278,12 +278,11 @@ img {
 
 .hero {
   background-color: var(--bg-mode-dark);
-}
-@media screen and (max-width: 1119px) {
-  .hero {
-    padding-bottom: 118px;
-    padding-top: 118px;
-  }
+  text-align: center;
+  padding-top: 118px;
+  padding-bottom: 118px;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media screen and (min-width: 1200px) {
   .hero {
@@ -373,7 +372,7 @@ img {
   background-color: var(--bg-button);
 }
 
-@media screen and (max-width: 767 px) {
+@media screen and (max-width: 767px) {
   .features__list {
     display: block;
     margin-left: auto;
@@ -543,7 +542,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--main-txt-mode-light);
 }
-@media screen and (max-width: 1119px) {
+@media screen and (max-width: 1199px) {
   .team__title {
     margin-bottom: 30px;
   }
@@ -687,7 +686,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--main-txt-mode-light);
 }
-@media screen and (max-width: 1119px) {
+@media screen and (max-width: 1199px) {
   .clients__title {
     margin-bottom: 30px;
   }
@@ -933,7 +932,7 @@ img {
   color: var(--main-txt-mode-dark);
   margin-bottom: 20px;
 }
-@media screen and (max-width: 1119px) {
+@media screen and (max-width: 1199px) {
   .join__title {
     text-align: center;
   }
@@ -1110,15 +1109,11 @@ img {
 @media screen and (min-width: 768px) and (min-width: 1200px) {
   .project__item {
     max-width: 370px;
+    max-width: 370px;
+    margin-right: 30px;
   }
   .project__item:nth-child(-n+3) {
     margin-top: 0;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .project__item {
-    max-width: 370px;
-    margin-right: 30px;
   }
   .project__item:nth-child(2n+2) {
     margin-right: 30px;

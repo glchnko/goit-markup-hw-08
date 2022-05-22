@@ -1,11 +1,12 @@
 
 .hero{
     background-color: var(--bg-mode-dark);
+    text-align: center;
+    padding-top: 118px;
+    padding-bottom: 118px;
+    margin-left: auto;
+    margin-right: auto;
     
-    @media screen and (max-width:1119px){
-        padding-bottom: 118px;
-        padding-top: 118px;
-    }
 
     @media screen and (min-width:1200px){
         padding-bottom: 200px;
