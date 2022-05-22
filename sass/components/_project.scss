@@ -12,6 +12,10 @@
 
     @media screen and (max-width:767px){
        
+        &:last-child{
+            margin-bottom: 0;
+        } 
+
         justify-content: center;
 
     }
@@ -123,8 +127,8 @@
     display: block;
 
     @media screen and (max-width:767px){
-        width: 450px;
-        height: 294px;
+        width: 100%;
+        
     }
 
     @media screen and (min-width:1200px){

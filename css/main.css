@@ -1090,6 +1090,9 @@ img {
   .project__item {
     justify-content: center;
   }
+  .project__item:last-child {
+    margin-bottom: 0;
+  }
 }
 @media screen and (min-width: 768px) {
   .project__item {
@@ -1168,8 +1171,7 @@ img {
 }
 @media screen and (max-width: 767px) {
   .project__img {
-    width: 450px;
-    height: 294px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 1200px) {
