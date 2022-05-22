@@ -1,20 +1,21 @@
 
 .project{
-    display: flex;
-    flex-wrap: wrap;  
+    display: block;
+    // flex-wrap: wrap;  
     
-
+    @media screen and (min-width: 768px){
+        display: flex;
+        flex-wrap: wrap;
+    }
     
 }
 
 .project__item{
     margin-bottom: 30px;
 
-    @media screen and (max-width:767px){
+    @media screen and (max-width:767.97px){
        
-        &:last-child{
-            margin-bottom: 0;
-        } 
+     
 
         justify-content: center;
 
