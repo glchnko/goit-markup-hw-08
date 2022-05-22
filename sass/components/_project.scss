@@ -106,13 +106,15 @@
     position: absolute;
     width: 100%;
     height: 294px;
+    
+    
 
     background-color: rgba(33, 150, 243, 0.9);
-    position: absolute;
+   
     bottom: 0px;
     
     
-    transform: translateY(100%);
+    transform: translateY(101%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     
@@ -142,20 +144,31 @@
 
 
 .project__description{
-    display: block;
-    position: absolute;
-    top: 63px;
-    right: 24px;
 
-    width: 322px;
-    height: 168px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 25px;
+    width: 100%;
+    height: 100%;
+    
 
     font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 15px;
+    line-height: 1.24;
     letter-spacing: 0.03em;
     color: var(--main-txt-mode-dark);
+    overflow: scroll;
+    
 
+    @media screen and (min-width: 480px){
+        font-size: 18px;
+        line-height: 1.56;
+        
+    }
 } 
  
 
