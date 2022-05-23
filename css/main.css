@@ -1193,7 +1193,7 @@ img {
   height: 100%;
   font-weight: 400;
   font-size: 15px;
-  line-height: 1.24;
+  line-height: 1.5;
   letter-spacing: 0.03em;
   color: var(--main-txt-mode-dark);
   overflow: scroll;
